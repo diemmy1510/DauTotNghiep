@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "615d9637-c573-4d14-8f12-0e00e9e5c047",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "615d9637-c573-4d14-8f12-0e00e9e5c047" : {
+
+    },
+    "9acb01a2-8edc-47d9-ac25-73c8dded582b" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "615d9637-c573-4d14-8f12-0e00e9e5c047" : 9223372036854775807,
+    "9acb01a2-8edc-47d9-ac25-73c8dded582b" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8EDE9837-E446-450F-9229-40F949E37F2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "615d9637-c573-4d14-8f12-0e00e9e5c047" : "project1\/",
+    "9acb01a2-8edc-47d9-ac25-73c8dded582b" : "LTDH\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DauTotNghiep",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/SourceCode\/DauTotNghiep\/DauTotNghiep.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.riouxsvn.com\/d02_ltdh",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "615d9637-c573-4d14-8f12-0e00e9e5c047"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.assembla.com\/svn\/dios-02",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9acb01a2-8edc-47d9-ac25-73c8dded582b"
+    }
+  ]
+}

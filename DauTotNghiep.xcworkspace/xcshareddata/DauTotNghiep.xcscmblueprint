@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "615d9637-c573-4d14-8f12-0e00e9e5c047",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "615d9637-c573-4d14-8f12-0e00e9e5c047" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "615d9637-c573-4d14-8f12-0e00e9e5c047" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "364C865D-3297-4CCA-BC55-46DF650B175E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "615d9637-c573-4d14-8f12-0e00e9e5c047" : "nApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DauTotNghiep",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/SourceCode\/DauTotNghiep\/DauTotNghiep.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.riouxsvn.com\/d02_ltdh",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "615d9637-c573-4d14-8f12-0e00e9e5c047"
+    }
+  ]
+}

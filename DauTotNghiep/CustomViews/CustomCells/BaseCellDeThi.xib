@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BaseCell" rowHeight="181" id="KGk-i7-Jjw" customClass="BaseCellDeThi">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wGn-dd-hnL">
+                        <rect key="frame" x="5" y="9" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="X2e-Nk-Ktv"/>
+                            <constraint firstAttribute="width" constant="50" id="XOu-Cp-hAA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name / Tieu De" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulC-kk-P7h">
+                        <rect key="frame" x="65" y="8" width="173" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBa-ch-AnW">
+                        <rect key="frame" x="246" y="24" width="29" height="40.5"/>
+                        <state key="normal" title="Button" image="share.png"/>
+                        <connections>
+                            <action selector="sharePress:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="aea-pq-fBb"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPA-6h-PKF">
+                        <rect key="frame" x="280" y="28" width="29" height="40.5"/>
+                        <state key="normal" title="Button" image="favoriteIcon.png"/>
+                        <state key="selected" image="checkHeart.png"/>
+                        <connections>
+                            <action selector="favorPress:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Khf-Ne-P1z"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzs-Oc-LI7">
+                        <rect key="frame" x="65" y="33" width="130" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fzs-Oc-LI7" firstAttribute="leading" secondItem="wGn-dd-hnL" secondAttribute="trailing" constant="10" id="0MX-fR-Kix"/>
+                    <constraint firstItem="wGn-dd-hnL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="4Fu-bK-v9S"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ulC-kk-P7h" secondAttribute="trailing" constant="71" id="4vi-D6-8rq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vBa-ch-AnW" secondAttribute="trailing" constant="34" id="I5H-TI-xf5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cPA-6h-PKF" secondAttribute="bottom" constant="-9" id="Kdd-Jj-Gll"/>
+                    <constraint firstItem="cPA-6h-PKF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="QJW-Qm-Bux"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vBa-ch-AnW" secondAttribute="bottom" constant="-5" id="UpX-Ti-4a5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Fzs-Oc-LI7" secondAttribute="trailing" constant="114" id="Z7o-Ft-fhI"/>
+                    <constraint firstItem="ulC-kk-P7h" firstAttribute="leading" secondItem="wGn-dd-hnL" secondAttribute="trailing" constant="10" id="aNv-oc-V0S"/>
+                    <constraint firstItem="Fzs-Oc-LI7" firstAttribute="top" secondItem="ulC-kk-P7h" secondAttribute="bottom" constant="5" id="cN8-Hf-x8D"/>
+                    <constraint firstAttribute="topMargin" secondItem="ulC-kk-P7h" secondAttribute="top" id="dZQ-WM-gSb"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cPA-6h-PKF" secondAttribute="trailing" id="hap-f6-yba"/>
+                    <constraint firstItem="vBa-ch-AnW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="16" id="hp6-n6-JBR"/>
+                    <constraint firstItem="vBa-ch-AnW" firstAttribute="leading" secondItem="Fzs-Oc-LI7" secondAttribute="trailing" constant="51" id="jU5-TX-6Ld"/>
+                    <constraint firstItem="wGn-dd-hnL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pnS-j1-HaJ"/>
+                    <constraint firstItem="cPA-6h-PKF" firstAttribute="leading" secondItem="vBa-ch-AnW" secondAttribute="trailing" constant="5" id="ymU-KN-Xhy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="baseImage" destination="wGn-dd-hnL" id="bRj-8V-Pp9"/>
+                <outlet property="favorButton" destination="cPA-6h-PKF" id="uix-Ls-tll"/>
+                <outlet property="shareButton" destination="vBa-ch-AnW" id="UmH-94-t0u"/>
+                <outlet property="subTitleLabel" destination="Fzs-Oc-LI7" id="YmQ-SP-igg"/>
+                <outlet property="titleLabel" destination="ulC-kk-P7h" id="4Oz-E5-sH4"/>
+            </connections>
+            <point key="canvasLocation" x="143" y="-26"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkHeart.png" width="100" height="94"/>
+        <image name="favoriteIcon.png" width="512" height="512"/>
+        <image name="share.png" width="256" height="256"/>
+    </resources>
+</document>
